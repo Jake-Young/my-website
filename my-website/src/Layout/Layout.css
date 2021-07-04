@@ -1,19 +1,25 @@
 .Header {
-  width: 100%;
+  flex: 1;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.Header-Button {
-  flex-direction: row;
-  justify-content: space-between;
+.Header-Text-Container {
+  padding: 24px;
 }
 
-.App-header-text {
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Header-Text {
+  font-size: large;
+  font-weight: 600;
+}
+
+.Header-Buttons {
+  padding: 24px;
+  display: flex;
 }
 
 .App-header-button {
+  margin: 12px;
   background-color: aqua;
 }

@@ -1,7 +1,11 @@
+import "./Layout.css";
+
 const Header = () => {
   return (
     <header className="Header">
-      <p className="App-header-text">Hamilton Robson</p>
+      <div className="Header-Text-Container">
+        <p className="Header-Text">hamilton robson</p>
+      </div>
       <div className="Header-Buttons">
         <button
           className="App-header-button"
