@@ -8,10 +8,6 @@ const HomePage = () => {
     <div className="Home-Page">
       <Header />
       <LandingModel />
-      <LandingModel />
-      <LandingModel />
-      <LandingModel />
-      <LandingModel />
     </div>
   );
 };
