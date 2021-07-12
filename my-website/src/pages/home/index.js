@@ -1,13 +1,13 @@
 import "./Home.css";
 
 import Header from "../../Layout/header";
-import LandingModel from "../../components/landing-model";
+import LandingView from "../../components/landing-view";
 
 const HomePage = () => {
   return (
     <div className="Home-Page">
       <Header />
-      <LandingModel />
+      <LandingView />
     </div>
   );
 };
