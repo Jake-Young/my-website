@@ -5,10 +5,10 @@ import { useCallback, useEffect, useRef, useState } from "react";
 const Header = () => {
   return (
     <header className="Header">
-      <div className="Header-Text-Container">
+      {/* <div className="Header-Text-Container">
         <p className="Header-Text">hamilton robson</p>
-      </div>
-      <div className="Header-Buttons">
+      </div> */}
+      {/* <div className="Header-Buttons">
         <button
           className="App-header-button"
           onClick={() => console.log("HOME")}
@@ -30,7 +30,7 @@ const Header = () => {
         >
           Support
         </button>
-      </div>
+      </div> */}
     </header>
   );
 };

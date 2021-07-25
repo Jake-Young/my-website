@@ -1,0 +1,54 @@
+.Audio-Visual-View {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Audio-Visual-Content {
+  background-color: transparent;
+}
+
+.Title {
+  width: 50vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  margin-left: 12vw;
+}
+
+.Desc {
+  width: 50vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 200;
+  margin-left: 12vw;
+}
+
+.Button-View {
+  width: 50vw;
+  margin-left: 12vw;
+  justify-content: flex-end;
+}
+
+.Button {
+  align-self: flex-end;
+  width: 150px;
+  background: none;
+  border: none;
+  color: cornflowerblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.Audio-Visual-Model {
+  width: 35vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: flex-end;
+  position: absolute;
+}
