@@ -2,7 +2,6 @@ import "./Audio-Visual-View.css";
 
 import { Canvas } from "@react-three/fiber";
 import { Environment } from "@react-three/drei";
-import HRSiteModel from "../HR-Site-Model";
 import { Suspense } from "react";
 
 const AudioVisualView = (props) => {
@@ -11,7 +10,7 @@ const AudioVisualView = (props) => {
       <div className="Audio-Visual-Model">
         <Canvas camera={{ position: [12, 10, 18], near: 0.01, far: 200 }}>
           <Suspense fallback={null}>
-            <HRSiteModel />
+            {props.model}
             <Environment preset="dawn" />
           </Suspense>
         </Canvas>
