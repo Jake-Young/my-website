@@ -1,0 +1,37 @@
+.Header {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Header-Text-Container {
+  padding: 24px;
+  margin-left: 50px;
+}
+
+.Header-Text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+
+.Header-Buttons {
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+}
+
+.App-header-button {
+  margin: 12px;
+  height: 56px;
+  width: 86px;
+  background-color: antiquewhite;
+  border-radius: 20px;
+}
